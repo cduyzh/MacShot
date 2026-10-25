@@ -1,0 +1,2739 @@
+[
+  {
+    "contents" : {
+      "guid" : "Workspace:/Users/hobby/gitlab-source/cduyzhShot",
+      "name" : "cduyzhShot",
+      "path" : "/Users/hobby/gitlab-source/cduyzhShot",
+      "projects" : [
+        "5af9ef06d3a7fe9eea4c6a43f029a01698d34efd175d24d4b2847d75757215d5",
+        "59b8c9962738fbb0ed5ac85fe9106eb4f8fd0e5ecd103dc82a1085a433b655a9"
+      ]
+    },
+    "signature" : "236c6a7a92db8fe39b0e0690f0db8498220486f95f6e0e0335c2ebc871c459e2",
+    "type" : "workspace"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "CLANG_ENABLE_MODULES[__platform_filter=driverkit]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=ios-maccatalyst]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=ios;ios-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=macos]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=tvos;tvos-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=watchos;watchos-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=xros;xros-simulator]" : "YES",
+            "CODE_SIGNING_REQUIRED" : "NO",
+            "CODE_SIGN_IDENTITY" : "",
+            "COMPILER_WORKING_DIRECTORY" : "$(WORKSPACE_DIR)",
+            "COPY_PHASE_STRIP" : "NO",
+            "DEBUG_INFORMATION_FORMAT" : "dwarf",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=driverkit]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=ios-maccatalyst]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=ios;ios-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=macos]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=tvos;tvos-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=watchos;watchos-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=xros;xros-simulator]" : "@rpath",
+            "ENABLE_NS_ASSERTIONS" : "YES",
+            "ENABLE_TESTABILITY" : "YES",
+            "ENABLE_TESTING_SEARCH_PATHS" : "YES",
+            "ENTITLEMENTS_REQUIRED" : "NO",
+            "GCC_OPTIMIZATION_LEVEL" : "0",
+            "GCC_PREPROCESSOR_DEFINITIONS" : [
+              "$(inherited)",
+              "SWIFT_PACKAGE",
+              "DEBUG=1"
+            ],
+            "INDEX_ENABLE_DATA_STORE" : "YES",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "15.0",
+            "KEEP_PRIVATE_EXTERNS" : "NO",
+            "LIBTOOL_NO_WARNING_FOR_NO_SYMBOLS" : "YES",
+            "LINKER_DRIVER" : "auto",
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "ONLY_ACTIVE_ARCH" : "YES",
+            "OTHER_CFLAGS" : [
+              "$(inherited)",
+              "-DXcode"
+            ],
+            "OTHER_LDRFLAGS" : [
+
+            ],
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-DXcode"
+            ],
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SKIP_INSTALL" : "YES",
+            "SPECIALIZATION_SDK_OPTIONS[__platform_filter=macos]" : [
+
+            ],
+            "SUPPORTED_PLATFORMS" : [
+              "$(AVAILABLE_PLATFORMS)"
+            ],
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_PACKAGE",
+              "DEBUG"
+            ],
+            "SWIFT_INSTALL_OBJC_HEADER" : "NO",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "",
+            "SWIFT_OPTIMIZATION_LEVEL" : "-Onone",
+            "TARGETED_DEVICE_FAMILY" : "",
+            "TVOS_DEPLOYMENT_TARGET" : "15.0",
+            "USE_HEADERMAP" : "NO",
+            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE:cduyzhshot::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "CLANG_ENABLE_MODULES[__platform_filter=driverkit]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=ios-maccatalyst]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=ios;ios-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=macos]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=tvos;tvos-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=watchos;watchos-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=xros;xros-simulator]" : "YES",
+            "CODE_SIGNING_REQUIRED" : "NO",
+            "CODE_SIGN_IDENTITY" : "",
+            "COMPILER_WORKING_DIRECTORY" : "$(WORKSPACE_DIR)",
+            "COPY_PHASE_STRIP" : "YES",
+            "DEBUG_INFORMATION_FORMAT" : "dwarf-with-dsym",
+            "DEPLOYMENT_POSTPROCESSING" : "YES",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=driverkit]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=ios-maccatalyst]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=ios;ios-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=macos]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=tvos;tvos-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=watchos;watchos-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=xros;xros-simulator]" : "@rpath",
+            "ENABLE_TESTING_SEARCH_PATHS" : "YES",
+            "ENTITLEMENTS_REQUIRED" : "NO",
+            "GCC_OPTIMIZATION_LEVEL" : "s",
+            "GCC_PREPROCESSOR_DEFINITIONS" : [
+              "$(inherited)",
+              "SWIFT_PACKAGE"
+            ],
+            "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "15.0",
+            "KEEP_PRIVATE_EXTERNS" : "NO",
+            "LIBTOOL_NO_WARNING_FOR_NO_SYMBOLS" : "YES",
+            "LINKER_DRIVER" : "auto",
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "OTHER_CFLAGS" : [
+              "$(inherited)",
+              "-DXcode"
+            ],
+            "OTHER_LDRFLAGS" : [
+
+            ],
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-DXcode"
+            ],
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SKIP_INSTALL" : "YES",
+            "SPECIALIZATION_SDK_OPTIONS[__platform_filter=macos]" : [
+
+            ],
+            "SUPPORTED_PLATFORMS" : [
+              "$(AVAILABLE_PLATFORMS)"
+            ],
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_PACKAGE"
+            ],
+            "SWIFT_INSTALL_OBJC_HEADER" : "NO",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "",
+            "SWIFT_OPTIMIZATION_LEVEL" : "-Owholemodule",
+            "TARGETED_DEVICE_FAMILY" : "",
+            "TVOS_DEPLOYMENT_TARGET" : "15.0",
+            "USE_HEADERMAP" : "NO",
+            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE:cduyzhshot::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "defaultConfigurationName" : "Release",
+      "groupTree" : {
+        "children" : [
+          {
+            "children" : [
+
+            ],
+            "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_0",
+            "name" : "AdditionalFiles",
+            "path" : "/",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+
+            ],
+            "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_1",
+            "name" : "Binaries",
+            "path" : "/",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_0",
+                "name" : "App/AppDelegate.swift",
+                "path" : "App/AppDelegate.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_1",
+                "name" : "App/AppState.swift",
+                "path" : "App/AppState.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_2",
+                "name" : "App/AppVersion.swift",
+                "path" : "App/AppVersion.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_3",
+                "name" : "App/ApplicationMenus.swift",
+                "path" : "App/ApplicationMenus.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_4",
+                "name" : "App/Permissions.swift",
+                "path" : "App/Permissions.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_5",
+                "name" : "App/ReleaseNotesWindow.swift",
+                "path" : "App/ReleaseNotesWindow.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_6",
+                "name" : "App/StatusPanelController.swift",
+                "path" : "App/StatusPanelController.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_7",
+                "name" : "App/StatusPanelView.swift",
+                "path" : "App/StatusPanelView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_8",
+                "name" : "App/UIPreviewDelegate.swift",
+                "path" : "App/UIPreviewDelegate.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_9",
+                "name" : "Capture/ScreenCaptureEngine.swift",
+                "path" : "Capture/ScreenCaptureEngine.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_10",
+                "name" : "Capture/WindowDetector.swift",
+                "path" : "Capture/WindowDetector.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_11",
+                "name" : "Hotkeys/HotkeyManager.swift",
+                "path" : "Hotkeys/HotkeyManager.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_12",
+                "name" : "Hotkeys/KeyCombo.swift",
+                "path" : "Hotkeys/KeyCombo.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_13",
+                "name" : "Pin/PinWindowController.swift",
+                "path" : "Pin/PinWindowController.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_14",
+                "name" : "Recorder/RecordingCountdownWindow.swift",
+                "path" : "Recorder/RecordingCountdownWindow.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_15",
+                "name" : "Recorder/RecordingOutputWriter.swift",
+                "path" : "Recorder/RecordingOutputWriter.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_16",
+                "name" : "Recorder/RecordingToolbarWindow.swift",
+                "path" : "Recorder/RecordingToolbarWindow.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_17",
+                "name" : "Recorder/ScreenRecorder.swift",
+                "path" : "Recorder/ScreenRecorder.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_18",
+                "name" : "Screenshot/AnnotationModel.swift",
+                "path" : "Screenshot/AnnotationModel.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_19",
+                "name" : "Screenshot/AnnotationRenderer.swift",
+                "path" : "Screenshot/AnnotationRenderer.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_20",
+                "name" : "Screenshot/ColorPalette.swift",
+                "path" : "Screenshot/ColorPalette.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_21",
+                "name" : "Screenshot/FloatingThumbnailWindow.swift",
+                "path" : "Screenshot/FloatingThumbnailWindow.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_22",
+                "name" : "Screenshot/InPlaceTextEditor.swift",
+                "path" : "Screenshot/InPlaceTextEditor.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_23",
+                "name" : "Screenshot/MagnifierView.swift",
+                "path" : "Screenshot/MagnifierView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_24",
+                "name" : "Screenshot/ScreenshotOverlayController.swift",
+                "path" : "Screenshot/ScreenshotOverlayController.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_25",
+                "name" : "Screenshot/ScreenshotOverlayView.swift",
+                "path" : "Screenshot/ScreenshotOverlayView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_26",
+                "name" : "Screenshot/ScreenshotToolbarView.swift",
+                "path" : "Screenshot/ScreenshotToolbarView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_27",
+                "name" : "Screenshot/ToolbarTooltipBubbleView.swift",
+                "path" : "Screenshot/ToolbarTooltipBubbleView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_28",
+                "name" : "ScrollCapture/ImageStitcher.swift",
+                "path" : "ScrollCapture/ImageStitcher.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_29",
+                "name" : "ScrollCapture/ScrollCaptureBoxWindow.swift",
+                "path" : "ScrollCapture/ScrollCaptureBoxWindow.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_30",
+                "name" : "ScrollCapture/ScrollCaptureDirection.swift",
+                "path" : "ScrollCapture/ScrollCaptureDirection.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_31",
+                "name" : "ScrollCapture/ScrollCaptureEndDetector.swift",
+                "path" : "ScrollCapture/ScrollCaptureEndDetector.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_32",
+                "name" : "ScrollCapture/ScrollCaptureFrameSource.swift",
+                "path" : "ScrollCapture/ScrollCaptureFrameSource.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_33",
+                "name" : "ScrollCapture/ScrollCaptureManager.swift",
+                "path" : "ScrollCapture/ScrollCaptureManager.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_34",
+                "name" : "ScrollCapture/ScrollCaptureOutput.swift",
+                "path" : "ScrollCapture/ScrollCaptureOutput.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_35",
+                "name" : "ScrollCapture/ScrollCapturePreviewWindow.swift",
+                "path" : "ScrollCapture/ScrollCapturePreviewWindow.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_36",
+                "name" : "ScrollCapture/ScrollCaptureRecoveryState.swift",
+                "path" : "ScrollCapture/ScrollCaptureRecoveryState.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_37",
+                "name" : "Settings/SettingsView.swift",
+                "path" : "Settings/SettingsView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_38",
+                "name" : "Settings/UserPreferences.swift",
+                "path" : "Settings/UserPreferences.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_39",
+                "name" : "Studio/ScreenshotStudioModel.swift",
+                "path" : "Studio/ScreenshotStudioModel.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_40",
+                "name" : "Studio/ScreenshotStudioRenderer.swift",
+                "path" : "Studio/ScreenshotStudioRenderer.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_41",
+                "name" : "Studio/ScreenshotStudioView.swift",
+                "path" : "Studio/ScreenshotStudioView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_42",
+                "name" : "Studio/ScreenshotStudioWindow.swift",
+                "path" : "Studio/ScreenshotStudioWindow.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_43",
+                "name" : "Tests/ScrollCaptureFixtureWindow.swift",
+                "path" : "Tests/ScrollCaptureFixtureWindow.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_44",
+                "name" : "Tests/ScrollCaptureTests.swift",
+                "path" : "Tests/ScrollCaptureTests.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_45",
+                "name" : "Tests/TestRunner.swift",
+                "path" : "Tests/TestRunner.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_46",
+                "name" : "Update/UpdateManager.swift",
+                "path" : "Update/UpdateManager.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_47",
+                "name" : "Update/UpdateWindowController.swift",
+                "path" : "Update/UpdateWindowController.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_48",
+                "name" : "Utilities/CacheManager.swift",
+                "path" : "Utilities/CacheManager.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_49",
+                "name" : "Utilities/DisplayHelper.swift",
+                "path" : "Utilities/DisplayHelper.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_50",
+                "name" : "Utilities/NotificationHelper.swift",
+                "path" : "Utilities/NotificationHelper.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_51",
+                "name" : "Utilities/PasteboardHelper.swift",
+                "path" : "Utilities/PasteboardHelper.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_52",
+                "name" : "Utilities/SoundManager.swift",
+                "path" : "Utilities/SoundManager.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_53",
+                "name" : "main.swift",
+                "path" : "main.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2",
+            "name" : "/Users/hobby/gitlab-source/cduyzhShot/Sources/cduyzhShot",
+            "path" : "/Users/hobby/gitlab-source/cduyzhShot/Sources/cduyzhShot",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "fileType" : "file",
+            "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_3",
+            "name" : "/Users/hobby/gitlab-source/cduyzhShot/Sources/cduyzhShot/Resources/ReleaseHistory.json",
+            "path" : "/Users/hobby/gitlab-source/cduyzhShot/Sources/cduyzhShot/Resources/ReleaseHistory.json",
+            "sourceTree" : "<absolute>",
+            "type" : "file"
+          },
+          {
+            "fileType" : "file",
+            "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_4",
+            "name" : "$(CONFIGURATION_BUILD_DIR)/cduyzhShot_cduyzhShot.bundle",
+            "path" : "$(CONFIGURATION_BUILD_DIR)/cduyzhShot_cduyzhShot.bundle",
+            "sourceTree" : "<group>",
+            "type" : "file"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_0",
+                "name" : "App/AppDelegate.swift",
+                "path" : "App/AppDelegate.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_1",
+                "name" : "App/AppState.swift",
+                "path" : "App/AppState.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_2",
+                "name" : "App/AppVersion.swift",
+                "path" : "App/AppVersion.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_3",
+                "name" : "App/ApplicationMenus.swift",
+                "path" : "App/ApplicationMenus.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_4",
+                "name" : "App/Permissions.swift",
+                "path" : "App/Permissions.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_5",
+                "name" : "App/ReleaseNotesWindow.swift",
+                "path" : "App/ReleaseNotesWindow.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_6",
+                "name" : "App/StatusPanelController.swift",
+                "path" : "App/StatusPanelController.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_7",
+                "name" : "App/StatusPanelView.swift",
+                "path" : "App/StatusPanelView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_8",
+                "name" : "App/UIPreviewDelegate.swift",
+                "path" : "App/UIPreviewDelegate.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_9",
+                "name" : "Capture/ScreenCaptureEngine.swift",
+                "path" : "Capture/ScreenCaptureEngine.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_10",
+                "name" : "Capture/WindowDetector.swift",
+                "path" : "Capture/WindowDetector.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_11",
+                "name" : "Hotkeys/HotkeyManager.swift",
+                "path" : "Hotkeys/HotkeyManager.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_12",
+                "name" : "Hotkeys/KeyCombo.swift",
+                "path" : "Hotkeys/KeyCombo.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_13",
+                "name" : "Pin/PinWindowController.swift",
+                "path" : "Pin/PinWindowController.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_14",
+                "name" : "Recorder/RecordingCountdownWindow.swift",
+                "path" : "Recorder/RecordingCountdownWindow.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_15",
+                "name" : "Recorder/RecordingOutputWriter.swift",
+                "path" : "Recorder/RecordingOutputWriter.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_16",
+                "name" : "Recorder/RecordingToolbarWindow.swift",
+                "path" : "Recorder/RecordingToolbarWindow.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_17",
+                "name" : "Recorder/ScreenRecorder.swift",
+                "path" : "Recorder/ScreenRecorder.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_18",
+                "name" : "Screenshot/AnnotationModel.swift",
+                "path" : "Screenshot/AnnotationModel.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_19",
+                "name" : "Screenshot/AnnotationRenderer.swift",
+                "path" : "Screenshot/AnnotationRenderer.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_20",
+                "name" : "Screenshot/ColorPalette.swift",
+                "path" : "Screenshot/ColorPalette.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_21",
+                "name" : "Screenshot/FloatingThumbnailWindow.swift",
+                "path" : "Screenshot/FloatingThumbnailWindow.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_22",
+                "name" : "Screenshot/InPlaceTextEditor.swift",
+                "path" : "Screenshot/InPlaceTextEditor.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_23",
+                "name" : "Screenshot/MagnifierView.swift",
+                "path" : "Screenshot/MagnifierView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_24",
+                "name" : "Screenshot/ScreenshotOverlayController.swift",
+                "path" : "Screenshot/ScreenshotOverlayController.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_25",
+                "name" : "Screenshot/ScreenshotOverlayView.swift",
+                "path" : "Screenshot/ScreenshotOverlayView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_26",
+                "name" : "Screenshot/ScreenshotToolbarView.swift",
+                "path" : "Screenshot/ScreenshotToolbarView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_27",
+                "name" : "Screenshot/ToolbarTooltipBubbleView.swift",
+                "path" : "Screenshot/ToolbarTooltipBubbleView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_28",
+                "name" : "ScrollCapture/ImageStitcher.swift",
+                "path" : "ScrollCapture/ImageStitcher.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_29",
+                "name" : "ScrollCapture/ScrollCaptureBoxWindow.swift",
+                "path" : "ScrollCapture/ScrollCaptureBoxWindow.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_30",
+                "name" : "ScrollCapture/ScrollCaptureDirection.swift",
+                "path" : "ScrollCapture/ScrollCaptureDirection.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_31",
+                "name" : "ScrollCapture/ScrollCaptureEndDetector.swift",
+                "path" : "ScrollCapture/ScrollCaptureEndDetector.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_32",
+                "name" : "ScrollCapture/ScrollCaptureFrameSource.swift",
+                "path" : "ScrollCapture/ScrollCaptureFrameSource.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_33",
+                "name" : "ScrollCapture/ScrollCaptureManager.swift",
+                "path" : "ScrollCapture/ScrollCaptureManager.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_34",
+                "name" : "ScrollCapture/ScrollCaptureOutput.swift",
+                "path" : "ScrollCapture/ScrollCaptureOutput.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_35",
+                "name" : "ScrollCapture/ScrollCapturePreviewWindow.swift",
+                "path" : "ScrollCapture/ScrollCapturePreviewWindow.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_36",
+                "name" : "ScrollCapture/ScrollCaptureRecoveryState.swift",
+                "path" : "ScrollCapture/ScrollCaptureRecoveryState.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_37",
+                "name" : "Settings/SettingsView.swift",
+                "path" : "Settings/SettingsView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_38",
+                "name" : "Settings/UserPreferences.swift",
+                "path" : "Settings/UserPreferences.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_39",
+                "name" : "Studio/ScreenshotStudioModel.swift",
+                "path" : "Studio/ScreenshotStudioModel.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_40",
+                "name" : "Studio/ScreenshotStudioRenderer.swift",
+                "path" : "Studio/ScreenshotStudioRenderer.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_41",
+                "name" : "Studio/ScreenshotStudioView.swift",
+                "path" : "Studio/ScreenshotStudioView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_42",
+                "name" : "Studio/ScreenshotStudioWindow.swift",
+                "path" : "Studio/ScreenshotStudioWindow.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_43",
+                "name" : "Tests/ScrollCaptureFixtureWindow.swift",
+                "path" : "Tests/ScrollCaptureFixtureWindow.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_44",
+                "name" : "Tests/ScrollCaptureTests.swift",
+                "path" : "Tests/ScrollCaptureTests.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_45",
+                "name" : "Tests/TestRunner.swift",
+                "path" : "Tests/TestRunner.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_46",
+                "name" : "Update/UpdateManager.swift",
+                "path" : "Update/UpdateManager.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_47",
+                "name" : "Update/UpdateWindowController.swift",
+                "path" : "Update/UpdateWindowController.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_48",
+                "name" : "Utilities/CacheManager.swift",
+                "path" : "Utilities/CacheManager.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_49",
+                "name" : "Utilities/DisplayHelper.swift",
+                "path" : "Utilities/DisplayHelper.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_50",
+                "name" : "Utilities/NotificationHelper.swift",
+                "path" : "Utilities/NotificationHelper.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_51",
+                "name" : "Utilities/PasteboardHelper.swift",
+                "path" : "Utilities/PasteboardHelper.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_52",
+                "name" : "Utilities/SoundManager.swift",
+                "path" : "Utilities/SoundManager.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_53",
+                "name" : "main.swift",
+                "path" : "main.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5",
+            "name" : "/Users/hobby/gitlab-source/cduyzhShot/Sources/cduyzhShot",
+            "path" : "/Users/hobby/gitlab-source/cduyzhShot/Sources/cduyzhShot",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          }
+        ],
+        "guid" : "PACKAGE:cduyzhshot::MAINGROUP",
+        "name" : "",
+        "path" : "",
+        "sourceTree" : "<group>",
+        "type" : "group"
+      },
+      "guid" : "PACKAGE:cduyzhshot",
+      "path" : "/Users/hobby/gitlab-source/cduyzhShot/Package.swift",
+      "projectDirectory" : "/Users/hobby/gitlab-source/cduyzhShot",
+      "projectIsPackage" : "true",
+      "projectName" : "cduyzhShot",
+      "targets" : [
+        "eebd4493838a786194be769f70d60c7456758312b8b72ef73c3954143771eb14",
+        "31d6d2fe66ccf54a06add4a4a34f6b03025c48668a21b1f907777b28fcf95655",
+        "c295857db6513e87368cd9444e34770030fff076b85fdb63b078ae439b737c4b",
+        "855bb74aa0beaec998ef3c6a879360cbfe750ed55613dab3838cb99804467305"
+      ]
+    },
+    "signature" : "5af9ef06d3a7fe9eea4c6a43f029a01698d34efd175d24d4b2847d75757215d5",
+    "type" : "project"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "15.0",
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "$(OTHER_SWIFT_FLAGS_ENABLE_LIBFUZZER_$(ENABLE_LIBFUZZER))"
+            ],
+            "OTHER_SWIFT_FLAGS_ENABLE_LIBFUZZER_YES" : [
+              "-Xfrontend",
+              "-entry-point-function-name",
+              "-Xfrontend",
+              "cduyzhShot_main"
+            ],
+            "PACKAGE_RESOURCE_BUNDLE_NAME" : "cduyzhShot_cduyzhShot",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "cduyzhshot.cduyzhShot",
+            "PRODUCT_MODULE_NAME" : "cduyzhShot",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "YES",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_INSTALL_MODULE" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "NO",
+            "SWIFT_PACKAGE_NAME" : "cduyzhshot",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/cduyzhShot.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/cduyzhShot.symbolgraphs",
+            "TARGET_NAME" : "cduyzhShot",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "TVOS_DEPLOYMENT_TARGET" : "15.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "15.0",
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "$(OTHER_SWIFT_FLAGS_ENABLE_LIBFUZZER_$(ENABLE_LIBFUZZER))"
+            ],
+            "OTHER_SWIFT_FLAGS_ENABLE_LIBFUZZER_YES" : [
+              "-Xfrontend",
+              "-entry-point-function-name",
+              "-Xfrontend",
+              "cduyzhShot_main"
+            ],
+            "PACKAGE_RESOURCE_BUNDLE_NAME" : "cduyzhShot_cduyzhShot",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "cduyzhshot.cduyzhShot",
+            "PRODUCT_MODULE_NAME" : "cduyzhShot",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "YES",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_INSTALL_MODULE" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "NO",
+            "SWIFT_PACKAGE_NAME" : "cduyzhshot",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/cduyzhShot.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/cduyzhShot.symbolgraphs",
+            "TARGET_NAME" : "cduyzhShot",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "TVOS_DEPLOYMENT_TARGET" : "15.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_0",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_1",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_2",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::2",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_3",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::3",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_4",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::4",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_5",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::5",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_6",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::6",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_7",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::7",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_8",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::8",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_9",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::9",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_10",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::10",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_11",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::11",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_12",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::12",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_13",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::13",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_14",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::14",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_15",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::15",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_16",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::16",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_17",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::17",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_18",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::18",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_19",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::19",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_20",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::20",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_21",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::21",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_22",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::22",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_23",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::23",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_24",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::24",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_25",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::25",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_26",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::26",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_27",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::27",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_28",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::28",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_29",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::29",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_30",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::30",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_31",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::31",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_32",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::32",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_33",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::33",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_34",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::34",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_35",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::35",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_36",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::36",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_37",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::37",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_38",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::38",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_39",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::39",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_40",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::40",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_41",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::41",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_42",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::42",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_43",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::43",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_44",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::44",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_45",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::45",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_46",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::46",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_47",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::47",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_48",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::48",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_49",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::49",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_50",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::50",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_51",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::51",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_52",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::52",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_2::REF_53",
+              "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0::53",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-RESOURCE:cduyzhShot",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot",
+      "name" : "cduyzhShot-product",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.tool",
+      "type" : "standard"
+    },
+    "signature" : "eebd4493838a786194be769f70d60c7456758312b8b72ef73c3954143771eb14",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "COREML_CODEGEN_LANGUAGE" : "None",
+            "COREML_COMPILER_CONTAINER" : "swift-package",
+            "EXECUTABLE_NAME" : "",
+            "GENERATE_INFOPLIST_FILE" : "YES",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "resource",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "cduyzhshot.cduyzhShot.resources",
+            "PRODUCT_MODULE_NAME" : "cduyzhShot_cduyzhShot",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "TARGET_NAME" : "cduyzhShot_cduyzhShot",
+            "TARGET_TEMP_DIR_SUFFIX" : "-b"
+          },
+          "guid" : "PACKAGE-RESOURCE:cduyzhShot::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "COREML_CODEGEN_LANGUAGE" : "None",
+            "COREML_COMPILER_CONTAINER" : "swift-package",
+            "EXECUTABLE_NAME" : "",
+            "GENERATE_INFOPLIST_FILE" : "YES",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "resource",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "cduyzhshot.cduyzhShot.resources",
+            "PRODUCT_MODULE_NAME" : "cduyzhShot_cduyzhShot",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "TARGET_NAME" : "cduyzhShot_cduyzhShot",
+            "TARGET_TEMP_DIR_SUFFIX" : "-b"
+          },
+          "guid" : "PACKAGE-RESOURCE:cduyzhShot::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_3",
+              "guid" : "PACKAGE-RESOURCE:cduyzhShot::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false",
+              "resourceRule" : "copy"
+            }
+          ],
+          "guid" : "PACKAGE-RESOURCE:cduyzhShot::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.resources"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+
+      ],
+      "guid" : "PACKAGE-RESOURCE:cduyzhShot",
+      "name" : "cduyzhShot_cduyzhShot",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-RESOURCE:cduyzhShot",
+        "name" : "cduyzhShot_cduyzhShot",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.bundle",
+      "type" : "standard"
+    },
+    "signature" : "31d6d2fe66ccf54a06add4a4a34f6b03025c48668a21b1f907777b28fcf95655",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "COREML_CODEGEN_LANGUAGE" : "Swift",
+            "COREML_COMPILER_CONTAINER" : "swift-package",
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "YES",
+            "GENERATE_PRELINK_OBJECT_FILE" : "NO",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "MODULEMAP_FILE_CONTENTS" : "module cduyzhShot {\nheader \"cduyzhShot-Swift.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/cduyzhShot.modulemap",
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-Xfrontend",
+              "-entry-point-function-name",
+              "-Xfrontend",
+              "cduyzhShot_main"
+            ],
+            "PACKAGE_RESOURCE_BUNDLE_NAME" : "cduyzhShot_cduyzhShot",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "cduyzhshot.cduyzhShot",
+            "PRODUCT_MODULE_NAME" : "cduyzhShot",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "STRIP_INSTALLED_PRODUCT" : "NO",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "YES",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "NO",
+            "SWIFT_OBJC_INTERFACE_HEADER_DIR" : "$(GENERATED_MODULEMAP_DIR)",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "cduyzhShot-Swift.h",
+            "SWIFT_PACKAGE_NAME" : "cduyzhshot",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/cduyzhShot.symbolgraphs",
+            "TAPI_DYLIB_INSTALL_NAME" : "cduyzhShot",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/cduyzhShot.symbolgraphs",
+            "TARGET_BUILD_DIR" : "$(TARGET_BUILD_DIR)/ExecutableModules",
+            "TARGET_NAME" : "cduyzhShot--6D979E9FBCF0BDC1-testable",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "EMBED_PACKAGE_RESOURCE_BUNDLE_NAMES" : [
+                "$(inherited)",
+                "cduyzhShot_cduyzhShot"
+              ],
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "LIBRARY_SEARCH_PATHS[__platform_filter=windows-msvc]" : [
+                "$(inherited)",
+                "$(TARGET_BUILD_DIR)/ExecutableModules"
+              ],
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/cduyzhShot.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "COREML_CODEGEN_LANGUAGE" : "Swift",
+            "COREML_COMPILER_CONTAINER" : "swift-package",
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "YES",
+            "GENERATE_PRELINK_OBJECT_FILE" : "NO",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "MODULEMAP_FILE_CONTENTS" : "module cduyzhShot {\nheader \"cduyzhShot-Swift.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/cduyzhShot.modulemap",
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-Xfrontend",
+              "-entry-point-function-name",
+              "-Xfrontend",
+              "cduyzhShot_main"
+            ],
+            "PACKAGE_RESOURCE_BUNDLE_NAME" : "cduyzhShot_cduyzhShot",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "cduyzhshot.cduyzhShot",
+            "PRODUCT_MODULE_NAME" : "cduyzhShot",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "STRIP_INSTALLED_PRODUCT" : "NO",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "YES",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "NO",
+            "SWIFT_OBJC_INTERFACE_HEADER_DIR" : "$(GENERATED_MODULEMAP_DIR)",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "cduyzhShot-Swift.h",
+            "SWIFT_PACKAGE_NAME" : "cduyzhshot",
+            "SWIFT_VERSION" : "5",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/cduyzhShot.symbolgraphs",
+            "TAPI_DYLIB_INSTALL_NAME" : "cduyzhShot",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/cduyzhShot.symbolgraphs",
+            "TARGET_BUILD_DIR" : "$(TARGET_BUILD_DIR)/ExecutableModules",
+            "TARGET_NAME" : "cduyzhShot--6D979E9FBCF0BDC1-testable",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "EMBED_PACKAGE_RESOURCE_BUNDLE_NAMES" : [
+                "$(inherited)",
+                "cduyzhShot_cduyzhShot"
+              ],
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "LIBRARY_SEARCH_PATHS[__platform_filter=windows-msvc]" : [
+                "$(inherited)",
+                "$(TARGET_BUILD_DIR)/ExecutableModules"
+              ],
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/cduyzhShot.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_0",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_1",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_2",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::2",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_3",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::3",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_4",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::4",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_5",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::5",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_6",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::6",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_7",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::7",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_8",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::8",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_9",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::9",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_10",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::10",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_11",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::11",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_12",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::12",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_13",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::13",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_14",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::14",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_15",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::15",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_16",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::16",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_17",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::17",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_18",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::18",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_19",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::19",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_20",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::20",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_21",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::21",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_22",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::22",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_23",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::23",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_24",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::24",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_25",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::25",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_26",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::26",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_27",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::27",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_28",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::28",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_29",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::29",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_30",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::30",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_31",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::31",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_32",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::32",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_33",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::33",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_34",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::34",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_35",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::35",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_36",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::36",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_37",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::37",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_38",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::38",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_39",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::39",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_40",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::40",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_41",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::41",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_42",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::42",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_43",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::43",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_44",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::44",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_45",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::45",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_46",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::46",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_47",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::47",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_48",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::48",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_49",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::49",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_50",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::50",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_51",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::51",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_52",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::52",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:cduyzhshot::MAINGROUP::REF_5::REF_53",
+              "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0::53",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-RESOURCE:cduyzhShot",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable",
+      "name" : "cduyzhShot",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-TARGET:cduyzhShot--6D979E9FBCF0BDC1-testable",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "org.swift.product-type.common.object",
+      "type" : "standard"
+    },
+    "signature" : "c295857db6513e87368cd9444e34770030fff076b85fdb63b078ae439b737c4b",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "PACKAGE-PRODUCT:cduyzhshot-cduyzhShotPackageTests.cduyzhShotPackageTests::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "PACKAGE-PRODUCT:cduyzhshot-cduyzhShotPackageTests.cduyzhShotPackageTests::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+
+      ],
+      "guid" : "PACKAGE-PRODUCT:cduyzhshot-cduyzhShotPackageTests.cduyzhShotPackageTests",
+      "name" : "cduyzhShotPackageTests-product",
+      "type" : "aggregate"
+    },
+    "signature" : "855bb74aa0beaec998ef3c6a879360cbfe750ed55613dab3838cb99804467305",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "YES",
+            "SUPPORTED_PLATFORMS" : [
+              "$(AVAILABLE_PLATFORMS)"
+            ]
+          },
+          "guid" : "AGGREGATE::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "YES",
+            "SUPPORTED_PLATFORMS" : [
+              "$(AVAILABLE_PLATFORMS)"
+            ]
+          },
+          "guid" : "AGGREGATE::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "defaultConfigurationName" : "Release",
+      "developmentRegion" : "en",
+      "groupTree" : {
+        "children" : [
+
+        ],
+        "guid" : "AGGREGATE::MAINGROUP",
+        "name" : "",
+        "path" : "",
+        "sourceTree" : "<group>",
+        "type" : "group"
+      },
+      "guid" : "AGGREGATE",
+      "path" : "/Users/hobby/gitlab-source/cduyzhShot/Package.swift",
+      "projectDirectory" : "/Users/hobby/gitlab-source/cduyzhShot",
+      "projectIsPackage" : "true",
+      "projectName" : "Aggregate",
+      "targets" : [
+        "e101393f048c00f8ad569d9766fd45deab318a694bf17bf5137b1a5ff87aa5e1",
+        "bba521074095d335883670e521280b2e1ca24c8003ccfcbd485ef98f01753104"
+      ]
+    },
+    "signature" : "59b8c9962738fbb0ed5ac85fe9106eb4f8fd0e5ecd103dc82a1085a433b655a9",
+    "type" : "project"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "ALL-INCLUDING-TESTS::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "ALL-INCLUDING-TESTS::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-RESOURCE:cduyzhShot",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "ALL-INCLUDING-TESTS",
+      "name" : "AllIncludingTests",
+      "type" : "aggregate"
+    },
+    "signature" : "e101393f048c00f8ad569d9766fd45deab318a694bf17bf5137b1a5ff87aa5e1",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "ALL-EXCLUDING-TESTS::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "ALL-EXCLUDING-TESTS::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-PRODUCT:cduyzhshot_cduyzhShot.cduyzhShot",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-RESOURCE:cduyzhShot",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "ALL-EXCLUDING-TESTS",
+      "name" : "AllExcludingTests",
+      "type" : "aggregate"
+    },
+    "signature" : "bba521074095d335883670e521280b2e1ca24c8003ccfcbd485ef98f01753104",
+    "type" : "target"
+  }
+]
